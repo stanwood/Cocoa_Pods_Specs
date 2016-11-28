@@ -20,7 +20,7 @@ end
 ## Stanwood CocoaPods Kit List
 
 * STWSocialKit
-###Instalation:
+### Instalation:
 ```ruby
 pod 'STWSocialKit'
 ```
