@@ -6,7 +6,7 @@ We listed below a few SDK's we can manage with **CocoaPods**, and can be reused 
 
 ## STWFeaturesKit
 
-This SDK should include feature we can reuse. For example, some of the features we have on **7NXT**, are:
+This SDK should include features we can reuse. For example, some of the features we have on **7NXT**, are:
 
 * Custom Sidebar/Drawer
 * NoNetwork Handler [:thanks: @szab ;)]
