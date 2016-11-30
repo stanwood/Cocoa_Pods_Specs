@@ -21,7 +21,6 @@ As the name suggest ;) , this is where we will keep all of our extensions which 
 
 This is where we will have all our `@IBDesignable && @IBInspectable`. For example:
 
-* [GradientUIView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/GradientUIView.swift)
 * [HorizontalGradientUIView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/HorizontalGradientUIView.swift)
 * [TwoColorHorizontalGradientUIView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/TwoColorHorizontalGradientUIView.swift)
 * [VerticalGradientUIView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/VerticalGradientUIView.swift)
