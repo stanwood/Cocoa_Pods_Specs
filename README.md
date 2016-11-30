@@ -13,11 +13,12 @@ This SDK should include features we can reuse. For example, some of the features
 * SplashScreen [:thanks_again: @szab]
 * Social Feed Interaction
 * Custom UIViewDrawings
+<!--- ... 
 
 [comment]: <> (This is my test comment @talzion)
 [^comment]: <> (This is my test comment @talzion)
 [//]: <> (This is my test comment @talzion)
-
+--> 
 ## STWExtensionsKit
 
 As the name suggest ;) , this is where we will keep all of our extensions which can be reused. For example: 
