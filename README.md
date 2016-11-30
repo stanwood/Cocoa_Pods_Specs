@@ -15,7 +15,17 @@ This SDK should include feature we can reuse. For example, some of the features 
 
 ## STWExtensionsKit
 
-As the name suggest ;) , this is where we will keep all of our extensions which can be reused.
+As the name suggest ;) , this is where we will keep all of our extensions which can be reused. For example: 
+
+* [UIImage+Gradient](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/UIImage%2BGradient.swift)
+* [String+NSAttributedString](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/String%2BNSAttributedString.swift)
+* [Double](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/Double.swift)
+* [CollectionType](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/CollectionType.swift)
+* [NSMutableData](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/NSMutableData.swift)
+* [UISearchBar](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/UISearchBar.swift)
+* [UIView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/UIViewExtension.swift)
+* [UICollectionView + UITableView](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/UICollectionView%20%2B%20UITableView.swift)
+* [UIViewController](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/UIViewController.swift)
 
 ## STWInspectableKit
 
