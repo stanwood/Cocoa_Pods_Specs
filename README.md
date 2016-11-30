@@ -14,9 +14,6 @@ This SDK should include features we can reuse. For example, some of the features
 * Social Feed Interaction
 * Custom UIViewDrawings
 
-<!--- 
-This is my comment
---> 
 ## STWExtensionsKit
 
 As the name suggest ;) , this is where we will keep all of our extensions which can be reused. For example: 
