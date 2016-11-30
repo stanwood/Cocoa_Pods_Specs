@@ -15,6 +15,8 @@ This SDK should include features we can reuse. For example, some of the features
 * Custom UIViewDrawings
 
 [comment]: <> (This is my test comment @talzion)
+[^comment]: <> (This is my test comment @talzion)
+[//]: <> (This is my test comment @talzion)
 
 ## STWExtensionsKit
 
