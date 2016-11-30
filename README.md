@@ -1,6 +1,6 @@
 
 
-# Future Stanwood SDK's
+# Potential Stanwood SDK's
 
 We listed below a few SDK's we can manage with **CocoaPods**, and can be reused across all `iOS` projects
 
