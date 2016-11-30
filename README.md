@@ -2,6 +2,8 @@
 
 # Future Stanwood SDK's
 
+We listed below a few SDK's we can manage with **CocoaPods**, and can be reused across all `iOS` projects
+
 ## STWFeaturesKit
 
 This SDK should include feature we can reuse. For example, some of the features we have on **7NXT**, are:
@@ -45,7 +47,14 @@ This is where we will have all our `@IBDesignable && @IBInspectable`. For exampl
 
 ## STWProtocolKit
 
+The Protocol Kit, will store some useful protocols to set a standard in **Stanwood**, `[CollectionDataSource, CollectionDelegate, DataType, etc'..]`, for example:
 
+* [CollectionSourceType](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/CollectionDataSource.swift)
+* [CollectionDelegateType](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/CollectionDelegate.swift)
+* [TableSourceType](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/TableDataSource.swift)
+* [TableDelegateType](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/TableDelegate.swift)
+* [DataType/Type](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/DataType.swift)
+* [CustomTableViewDatasource - :thanks: @szab](https://github.com/stanwood/Mach_Dich_Krass_Swift/blob/9f844ffe63207bc81a21478e03532fa83f0f6e5a/Mach_Dich_Krass/CustomTableViewDatasource.swift)
 
 # Cocoa_Pods_Specs
 
