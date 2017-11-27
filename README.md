@@ -2,9 +2,6 @@
 
 ## Create a pod lib
 
-- `pod lib lint` will validate that everything is okay with your pod and that it’s ready to use by CocoaPods.
-- `pod lib create` will actually help give you a jump start by providing a standard directory structure with a bunch of boilerplate files necessary for a high quality pod. pod lib create isn't the only way to create your pod, but it is the easiest.
-
 ### Create a new CocoaPods project
 `$ pod lib create PROJECT_NAME`
 
@@ -34,10 +31,8 @@ pod lib lint PROJECT_NAME.podspec --private --allow-warnings
 pod repo push Cocoa_Pods_Specs PROJECT_NAME.podspec --private --allow-warnings
 ```
 
-# Cocoa_Pods_Specs
 
-
-## Installation
+### Installation
 
 Adding Specs source to pod file:
 
@@ -50,4 +45,8 @@ target 'STWProject' do
 end
 ```
 
+### `pod lib`
+
+- `pod lib lint` will validate that everything is okay with your pod and that it’s ready to use by CocoaPods.
+- `pod lib create` will actually help give you a jump start by providing a standard directory structure with a bunch of boilerplate files necessary for a high quality pod. pod lib create isn't the only way to create your pod, but it is the easiest.
 
