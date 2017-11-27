@@ -13,6 +13,7 @@ Update podspec files
 
 ### Push project
 ```ruby
+git init
 git add .
 git commit -m “Initial Commit"
 git remote add origin https://github.com/stanwood/PROJECT_NAME.git
