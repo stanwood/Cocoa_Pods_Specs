@@ -1,6 +1,6 @@
 
 
-## Create a pod lib
+## Create a Stanwood pod framework
 
 ### Create a new CocoaPods project
 `$ pod lib create PROJECT_NAME`
