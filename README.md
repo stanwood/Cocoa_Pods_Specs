@@ -10,7 +10,7 @@
 Stanwood pods are currently added to our own private repo. 
 You have to add this repo to your local install of cocoapods. 
 
-Search for `~/.cocoapods/repos` to list the known repos.
+Use the command `$ ls ~/.cocoapods/repos` to list the known repos.
 
 If `Cocoa_Pods_Specs` is not listed, then run the command: 
 
