@@ -7,15 +7,16 @@
 
 #### Adding our master repo spec
 
-Before we start, we first need to make sure we add our private repository spec to `cocoapods`. This will allow us to fetch our private repositories, push and update our pods.
+Stanwood pods are currently added to our own private repo. 
+You have to add this repo to your local install of cocoapods. 
 
-Run the following command: 
+Search for `~/.cocoapods/repos` to list the known repos.
+
+If `Cocoa_Pods_Specs` is not listed, then run the command: 
 
 `$ pod repo add Cocoa_Pods_Specs https://github.com/stanwood/Cocoa_Pods_Specs master`
 
-You will notice a new repo folder was added under `~/.cocoapods/repos/`
-
->Note: We only need to run this once.
+and then verify that it has been added correctly.
 
 ## Creating a new framework
 
