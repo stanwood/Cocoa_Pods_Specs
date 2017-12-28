@@ -33,11 +33,11 @@ and then verify that it has been added correctly.
     - License (MIT => private)
     - Source
     
-    This is important to pass the validation.
+    This is required for the pod to pass validation.
 
 3. Update the Licence file:
 
-   `Copyright (c) 2017 Stanwood GmbH`
+   `Copyright (c) 2018 Stanwood GmbH`
    
 4. Add `.swift-version` file to the main directory. Cocoapods uses **3.0** by default.
 
