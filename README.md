@@ -1,8 +1,11 @@
 
 
-## Create a Stanwood pod framework
+# Stanwood master cocoapods spec
 
-### First step
+
+## First step
+
+### Adding our master repo spec
 
 Before we start, we first need to make sure we add our private repository spec to `cocoapods`. This will allow us to fetch our private repositories, push and update our pods.
 
@@ -11,6 +14,10 @@ Run the following command:
 `$ pod repo add Cocoa_Pods_Specs https://github.com/stanwood/Cocoa_Pods_Specs master`
 
 You will notice a new repo folder was added under `~/.cocoapods/repos/`
+
+>Note: We only need to run this once.
+
+## Creating a new framework
 
 ### Create a new CocoaPods project
 
@@ -31,6 +38,7 @@ git commit -m “Initial Commit"
 git remote add origin https://github.com/stanwood/PROJECT_NAME.git
 git push -u origin master --force
 ```
+## Releasing
 
 ### Push new update
 
@@ -45,9 +53,18 @@ pod repo push Cocoa_Pods_Specs PROJECT_NAME.podspec --private --allow-warnings
 ```
 
 
-### Installation
+## Installation
+
+### Adding source
 
 First, we need to add the source Specs to `podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/stanwood/Cocoa_Pods_Specs.git'
+```
+
+### Add pod framework to podfile
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
