@@ -60,7 +60,7 @@ git commit -m “Initial Commit"
 git remote add origin https://github.com/stanwood/PROJECT_NAME.git
 git push -u origin master --force
 ```
->Note: Make sure the repository has only `.gitignore`. README file is added by default whne creating a new pod.
+>Note: Make sure the repository has only `.gitignore`. README file is added by default when creating a new pod.
 
 ## Releasing
 
