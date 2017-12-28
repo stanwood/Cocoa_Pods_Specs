@@ -5,7 +5,7 @@
 
 ## First step
 
-### Adding our master repo spec
+#### Adding our master repo spec
 
 Before we start, we first need to make sure we add our private repository spec to `cocoapods`. This will allow us to fetch our private repositories, push and update our pods.
 
@@ -19,17 +19,17 @@ You will notice a new repo folder was added under `~/.cocoapods/repos/`
 
 ## Creating a new framework
 
-### Create a new CocoaPods project
+#### Create a new CocoaPods project
 
 `$ pod lib create PROJECT_NAME`
 
 Update podspec files
 
-### Validate podspec
+#### Validate podspec
 
 `$ pod lib lint PROJECT_NAME.podspec --private --allow-warnings`
 
-### Push project
+#### Push project
 
 ```ruby
 git init
@@ -40,7 +40,7 @@ git push -u origin master --force
 ```
 ## Releasing
 
-### Push new update
+#### Push new update
 
 > Note: Bump version in PROJECT_NAME.podsec
 
@@ -55,7 +55,7 @@ pod repo push Cocoa_Pods_Specs PROJECT_NAME.podspec --private --allow-warnings
 
 ## Installation
 
-### Adding source
+#### Adding source
 
 First, we need to add the source Specs to `podfile`:
 
@@ -64,7 +64,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/stanwood/Cocoa_Pods_Specs.git'
 ```
 
-### Add pod framework to podfile
+#### Add pod framework to podfile
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -77,7 +77,7 @@ target 'STWProject' do
 end
 ```
 
-### `pod lib` overview
+## `pod lib` overview
 
 - `pod lib lint` will validate that everything is okay with your pod and that it’s ready to use by CocoaPods.
 - `pod lib create` will actually help give you a jump start by providing a standard directory structure with a bunch of boilerplate files necessary for a high quality pod. pod lib create isn't the only way to create your pod, but it is the easiest.
