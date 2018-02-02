@@ -9,7 +9,7 @@ A UI component meant primarily to support our chatbots.
   s.homepage         = 'https://github.com/stanwood/Stanwood_Chat_iOS'
   s.license          = { :type => 'Private', :file => 'LICENSE' }
   s.author           = { 'Maciek Czarnik' => 'maciek.czarnik@stanwood.io' }
-  s.source           = { :git => 'https://github.com/stanwood/Stanwood_Chat_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:stanwood/Stanwood_Chat_iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
