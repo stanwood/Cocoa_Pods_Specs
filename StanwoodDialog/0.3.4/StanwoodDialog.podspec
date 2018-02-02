@@ -25,7 +25,7 @@ Library to show a rate me prompt like the one used in On Air.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'private', :file => 'LICENSE' }
   s.author           = { 'epeschard' => 'e@peschard.me' }
-  s.source           = { :git => 'https://github.com/stanwood/Stanwood_Dialog_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:stanwood/Stanwood_Dialog_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
