@@ -13,7 +13,7 @@ StanwoodChat is a UI component intended to support chatbot integrations.
 
   s.ios.deployment_target = '11.0' # maskedCorners is iOS 11...
   s.requires_arc = true
-
+  
   s.source_files = 'Sources/**/*.swift'
   s.resources =  ['Resources/Storyboards/*.storyboard']
 end
